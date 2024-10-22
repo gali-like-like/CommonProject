@@ -1,0 +1,49 @@
+2024-10-22 16:32:28.636 [http-nio-8080-exec-1] ERROR org.example.exceptor.GlobalException - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'user.PRIMARY'
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO user  ( id, name )  VALUES (  ?, ?  )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'user.PRIMARY'
+; Duplicate entry '2' for key 'user.PRIMARY'
+2024-10-22 16:34:13.863 [http-nio-8080-exec-3] ERROR org.example.exceptor.GlobalException - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO user  ( id )  VALUES (  ?  )
+### Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+; Field 'name' doesn't have a default value
+2024-10-22 16:42:26.308 [http-nio-8080-exec-1] ERROR org.example.exceptor.GlobalException - null
+2024-10-22 17:34:12.997 [http-nio-8080-exec-1] ERROR org.example.exceptor.GlobalException - 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=1' at line 1
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE user    WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=1' at line 1
+; bad SQL grammar []
+2024-10-22 17:36:31.594 [http-nio-8080-exec-1] ERROR org.example.exceptor.GlobalException - 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=1' at line 1
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE user    WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=1' at line 1
+; bad SQL grammar []
+2024-10-22 17:37:13.324 [http-nio-8080-exec-4] ERROR org.example.exceptor.GlobalException - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO user  ( id )  VALUES (  ?  )
+### Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+; Field 'name' doesn't have a default value
+2024-10-22 17:38:37.454 [http-nio-8080-exec-1] ERROR org.example.exceptor.GlobalException - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO user  ( id )  VALUES (  ?  )
+### Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+; Field 'name' doesn't have a default value
