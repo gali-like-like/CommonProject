@@ -183,3 +183,62 @@
 2024-10-22 17:54:54.915 [http-nio-8080-exec-7] TRACE org.example.mapper.UserMapper.selectById - <==    Columns: id, name
 2024-10-22 17:54:54.916 [http-nio-8080-exec-7] TRACE org.example.mapper.UserMapper.selectById - <==        Row: 1, 百里玄策
 2024-10-22 17:54:54.916 [http-nio-8080-exec-7] DEBUG org.example.mapper.UserMapper.selectById - <==      Total: 1
+2024-10-22 20:29:39.755 [http-nio-8080-exec-4] DEBUG org.example.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name ) VALUES ( ?, ? )
+2024-10-22 20:29:39.778 [http-nio-8080-exec-4] DEBUG org.example.mapper.UserMapper.insert - ==> Parameters: 4(Integer), 曹操(String)
+2024-10-22 20:29:39.794 [http-nio-8080-exec-4] DEBUG org.example.mapper.UserMapper.insert - <==    Updates: 1
+2024-10-22 20:29:42.499 [http-nio-8080-exec-9] DEBUG org.example.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name ) VALUES ( ?, ? )
+2024-10-22 20:29:42.499 [http-nio-8080-exec-9] DEBUG org.example.mapper.UserMapper.insert - ==> Parameters: 4(Integer), 曹操(String)
+2024-10-22 20:38:44.455 [http-nio-8080-exec-4] DEBUG org.example.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name ) VALUES ( ?, ? )
+2024-10-22 20:38:44.478 [http-nio-8080-exec-4] DEBUG org.example.mapper.UserMapper.insert - ==> Parameters: 4(Integer), 曹操(String)
+2024-10-22 20:40:16.434 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name ) VALUES ( ?, ? )
+2024-10-22 20:40:16.456 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.insert - ==> Parameters: 4(Integer), 曹操(String)
+2024-10-22 20:41:25.271 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name ) VALUES ( ?, ? )
+2024-10-22 20:41:25.293 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.insert - ==> Parameters: 4(Integer), 曹操(String)
+2024-10-22 20:46:03.234 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name ) VALUES ( ?, ? )
+2024-10-22 20:46:03.257 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.insert - ==> Parameters: 4(Integer), 曹操(String)
+2024-10-22 21:18:42.766 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,name FROM user ORDER BY id DESC
+2024-10-22 21:18:42.786 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.selectList - ==> Parameters: 
+2024-10-22 21:18:42.806 [http-nio-8080-exec-1] TRACE org.example.mapper.UserMapper.selectList - <==    Columns: id, name
+2024-10-22 21:18:42.806 [http-nio-8080-exec-1] TRACE org.example.mapper.UserMapper.selectList - <==        Row: 4, 曹操
+2024-10-22 21:18:42.807 [http-nio-8080-exec-1] TRACE org.example.mapper.UserMapper.selectList - <==        Row: 2, 百里守约
+2024-10-22 21:18:42.808 [http-nio-8080-exec-1] TRACE org.example.mapper.UserMapper.selectList - <==        Row: 1, 百里玄策
+2024-10-22 21:18:42.808 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.selectList - <==      Total: 3
+2024-10-22 21:23:53.558 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,name FROM user WHERE (name LIKE ?) ORDER BY id DESC
+2024-10-22 21:23:53.580 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.selectList - ==> Parameters: %百里%(String)
+2024-10-22 21:23:53.598 [http-nio-8080-exec-1] TRACE org.example.mapper.UserMapper.selectList - <==    Columns: id, name
+2024-10-22 21:23:53.598 [http-nio-8080-exec-1] TRACE org.example.mapper.UserMapper.selectList - <==        Row: 2, 百里守约
+2024-10-22 21:23:53.599 [http-nio-8080-exec-1] TRACE org.example.mapper.UserMapper.selectList - <==        Row: 1, 百里玄策
+2024-10-22 21:23:53.599 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.selectList - <==      Total: 2
+2024-10-22 21:24:24.088 [http-nio-8080-exec-3] DEBUG org.example.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,name FROM user WHERE id=?
+2024-10-22 21:24:24.089 [http-nio-8080-exec-3] DEBUG org.example.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2024-10-22 21:24:24.090 [http-nio-8080-exec-3] TRACE org.example.mapper.UserMapper.selectById - <==    Columns: id, name
+2024-10-22 21:24:24.090 [http-nio-8080-exec-3] TRACE org.example.mapper.UserMapper.selectById - <==        Row: 1, 百里玄策
+2024-10-22 21:24:24.090 [http-nio-8080-exec-3] DEBUG org.example.mapper.UserMapper.selectById - <==      Total: 1
+2024-10-22 21:39:31.202 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,name FROM user WHERE id=?
+2024-10-22 21:39:31.223 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2024-10-22 21:39:31.242 [http-nio-8080-exec-1] TRACE org.example.mapper.UserMapper.selectById - <==    Columns: id, name
+2024-10-22 21:39:31.242 [http-nio-8080-exec-1] TRACE org.example.mapper.UserMapper.selectById - <==        Row: 1, 百里玄策
+2024-10-22 21:39:31.244 [http-nio-8080-exec-1] DEBUG org.example.mapper.UserMapper.selectById - <==      Total: 1
+2024-10-22 21:39:54.640 [http-nio-8080-exec-2] DEBUG org.example.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,name FROM user ORDER BY id DESC
+2024-10-22 21:39:54.640 [http-nio-8080-exec-2] DEBUG org.example.mapper.UserMapper.selectList - ==> Parameters: 
+2024-10-22 21:39:54.640 [http-nio-8080-exec-2] TRACE org.example.mapper.UserMapper.selectList - <==    Columns: id, name
+2024-10-22 21:39:54.640 [http-nio-8080-exec-2] TRACE org.example.mapper.UserMapper.selectList - <==        Row: 4, 曹操
+2024-10-22 21:39:54.640 [http-nio-8080-exec-2] TRACE org.example.mapper.UserMapper.selectList - <==        Row: 2, 百里守约
+2024-10-22 21:39:54.640 [http-nio-8080-exec-2] TRACE org.example.mapper.UserMapper.selectList - <==        Row: 1, 百里玄策
+2024-10-22 21:39:54.641 [http-nio-8080-exec-2] DEBUG org.example.mapper.UserMapper.selectList - <==      Total: 3
+2024-10-22 21:40:28.713 [http-nio-8080-exec-5] DEBUG org.example.mapper.UserMapper.updateById - ==>  Preparing: UPDATE user SET name=? WHERE id=?
+2024-10-22 21:40:28.714 [http-nio-8080-exec-5] DEBUG org.example.mapper.UserMapper.updateById - ==> Parameters: 大乔(String), 4(Integer)
+2024-10-22 21:40:28.727 [http-nio-8080-exec-5] DEBUG org.example.mapper.UserMapper.updateById - <==    Updates: 1
+2024-10-22 21:41:17.948 [http-nio-8080-exec-4] DEBUG org.example.mapper.UserMapper.deleteById - ==>  Preparing: DELETE FROM user WHERE id=?
+2024-10-22 21:41:17.948 [http-nio-8080-exec-4] DEBUG org.example.mapper.UserMapper.deleteById - ==> Parameters: 4(Integer)
+2024-10-22 21:41:17.963 [http-nio-8080-exec-4] DEBUG org.example.mapper.UserMapper.deleteById - <==    Updates: 1
+2024-10-22 21:41:48.998 [http-nio-8080-exec-3] DEBUG org.example.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name ) VALUES ( ?, ? )
+2024-10-22 21:41:48.998 [http-nio-8080-exec-3] DEBUG org.example.mapper.UserMapper.insert - ==> Parameters: 4(Integer), 孙策(String)
+2024-10-22 21:41:49.005 [http-nio-8080-exec-3] DEBUG org.example.mapper.UserMapper.insert - <==    Updates: 1
+2024-10-22 21:46:38.133 [http-nio-8080-exec-2] DEBUG org.example.mapper.UserMapper.insert - ==>  Preparing: INSERT INTO user ( id, name ) VALUES ( ?, ? )
+2024-10-22 21:46:38.157 [http-nio-8080-exec-2] DEBUG org.example.mapper.UserMapper.insert - ==> Parameters: 4(Integer), 大乔(String)
+2024-10-22 23:18:04.107 [http-nio-8080-exec-2] DEBUG org.example.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,name FROM user WHERE id=?
+2024-10-22 23:18:04.130 [http-nio-8080-exec-2] DEBUG org.example.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2024-10-22 23:18:04.162 [http-nio-8080-exec-2] TRACE org.example.mapper.UserMapper.selectById - <==    Columns: id, name
+2024-10-22 23:18:04.162 [http-nio-8080-exec-2] TRACE org.example.mapper.UserMapper.selectById - <==        Row: 1, 百里玄策
+2024-10-22 23:18:04.164 [http-nio-8080-exec-2] DEBUG org.example.mapper.UserMapper.selectById - <==      Total: 1

@@ -47,3 +47,57 @@
 ### SQL: INSERT INTO user  ( id )  VALUES (  ?  )
 ### Cause: java.sql.SQLException: Field 'name' doesn't have a default value
 ; Field 'name' doesn't have a default value
+2024-10-22 20:29:42.636 [http-nio-8080-exec-9] ERROR org.example.exceptor.GlobalException - http://127.0.0.1:8080/user - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO user  ( id, name )  VALUES (  ?, ?  )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+; Duplicate entry '4' for key 'user.PRIMARY'
+2024-10-22 20:38:44.569 [http-nio-8080-exec-4] ERROR org.example.exceptor.GlobalException - http://127.0.0.1:8080/user,UserController,
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO user  ( id, name )  VALUES (  ?, ?  )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+; Duplicate entry '4' for key 'user.PRIMARY'
+2024-10-22 20:40:16.544 [http-nio-8080-exec-1] ERROR org.example.exceptor.GlobalException - http://127.0.0.1:8080/user,public org.example.entity.Result org.example.controller.UserController.add(org.example.entity.User),
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO user  ( id, name )  VALUES (  ?, ?  )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+; Duplicate entry '4' for key 'user.PRIMARY'
+2024-10-22 20:41:25.374 [http-nio-8080-exec-1] ERROR org.example.exceptor.GlobalException - http://127.0.0.1:8080/user,add,
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO user  ( id, name )  VALUES (  ?, ?  )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+; Duplicate entry '4' for key 'user.PRIMARY'
+2024-10-22 20:46:03.355 - [http-nio-8080-exec-1] - /user,public org.example.entity.Result org.example.controller.UserController.add(org.example.entity.User),
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO user  ( id, name )  VALUES (  ?, ?  )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+; Duplicate entry '4' for key 'user.PRIMARY'
+2024-10-22 21:46:38.250 - [http-nio-8080-exec-2] - /user,
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+### The error may exist in org/example/mapper/UserMapper.java (best guess)
+### The error may involve org.example.mapper.UserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO user  ( id, name )  VALUES (  ?, ?  )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'user.PRIMARY'
+; Duplicate entry '4' for key 'user.PRIMARY',{}
+2024-10-22 21:55:58.269 - [http-nio-8080-exec-1] - No static resource a.
+2024-10-22 23:03:29.525 - [http-nio-8080-exec-4] - GET,/users,null
+2024-10-22 23:04:19.825 - [http-nio-8080-exec-1] - GET,/users/id/1,null
+2024-10-22 23:04:51.603 - [http-nio-8080-exec-1] - GET,/users/id/1,null
+2024-10-22 23:07:56.055 - [http-nio-8080-exec-1] - GET,/users/id/1,null
+2024-10-22 23:09:07.467 - [http-nio-8080-exec-1] - GET,/users/id/1,null
